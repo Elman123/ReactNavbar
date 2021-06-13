@@ -1,0 +1,74 @@
+/* Navbar */
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 0 !important; 
+  margin: 0 !important;
+}
+
+.nav ul li{
+  font-family: Inter, system-ui;
+  font-weight: bold;
+}
+
+.Treact{
+  font-size: 1.5rem !important;
+  color: #243E63;
+  font-weight: 900;
+  margin-left: 0 !important;
+  margin: 0 24px 0 0;
+  padding: 0 0 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav1{
+  font-size: 0.875rem;
+  margin: 0 1.5rem;
+  color: #243E63;
+  font-family:Inter, system-ui;
+  font-weight:bold ;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: inherit;
+  border: none;
+}
+
+.navbtn{
+  font-size: 0.875rem;
+  margin: 0 1.5rem;
+  color: #243E63;
+  border-radius:9999px ;
+  padding: 12px 32px;
+  background-color: #6415ff;
+  color: #f7fafc;
+}
+
+.btn{
+  border: none;
+  background:none;
+  color: #f7fafc;
+  background-color: rgba(100,21,255,var(--tw-bg-opacity));
+  cursor: pointer;
+}
+
+.reactnav2{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.logo{
+  margin: 0 12px 0 0;
+  width: 2.5rem;
+  margin-right:0.75rem ;
+  
+}
